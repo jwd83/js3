@@ -10,8 +10,8 @@ def main():
 
     # check for the filename and dimension being passed
     if len(sys.argv) != 3:
-        print("Usage:   python splice.py <filename> <square pixel dimension>")
-        print("Example: python splice.py player.png 16")
+        print("Usage:   python splicer.py <filename> <square pixel dimension>")
+        print("Example: python splicer.py player.png 16")
         sys.exit(1)
 
     # store the filename and dimension
